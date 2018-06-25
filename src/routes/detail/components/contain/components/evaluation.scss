@@ -1,0 +1,78 @@
+.Evaluation{
+  
+    .EvaluationTitle{
+        margin-top: 20px;
+        .peopleInfo{
+            display: flex;
+            .head{
+                width: 51px;
+                height: 51px;
+                border-radius: 50%;
+                // background-color: #777777;
+                background:url('../../../../../icons/user.png') 50% / contain no-repeat;
+            }
+            .headInfo{
+                margin-left: 15px;
+                padding: 8px 0;
+                .headName{
+                    display: inline-block;
+                    color: #000;
+                    font-size: 9px;
+                }
+                .startWrapper{
+                    margin-top: 9px;
+                    margin-left: 5px;
+                    color: #f2a95d;
+                }
+            }
+            
+        }
+        .rightIcon{
+            background:url('./../../../../../icons/arrow-r.svg')
+        }
+        
+    }
+    .foldableParagraghWrapper{
+        font-size: 11px;
+    }
+    .EvaluationBottom{
+        margin-top: 5px;
+        color: #bcbcbc;
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+        .time{
+            line-height: 17px;
+        }
+        .zanE{
+            
+            span{
+                vertical-align: middle;
+                padding: 0 5px;
+            }
+            .zan{
+                vertical-align: middle;
+                display: inline-block;
+                width: 14px;
+                height: 15px;
+                background:url('../../../../../icons/zan-o.svg') 50% / contain no-repeat;
+            }
+            .isZan{
+                vertical-align: middle;
+                display: inline-block;
+                width: 14px;
+                height: 15px;
+                background:url('../../../../../icons/zan-solid.svg') 50% / contain no-repeat;
+            }
+            .E{
+                vertical-align: middle;
+                margin-left: 5px;
+                display: inline-block;
+                width: 14px;
+                height: 15px;
+                background:url('../../../../../icons/zan-o.svg') 50% / contain no-repeat;
+            }
+  
+        }
+    }
+}

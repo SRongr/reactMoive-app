@@ -1,0 +1,28 @@
+
+.sliderHome{
+  width:100%;
+  height: 0px;
+  padding-bottom: 40%;
+  position: relative;
+  .sliderWrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
+.movieItemWarpper{
+  padding-bottom: 50px;
+  .MovieItemHome{
+    margin: 0 15px;
+    display: block;
+    padding: 15px 0;
+    background-color:#fff;
+    // border-bottom: 1px solid #e4e2e2;
+    text-decoration: none;
+    &:nth-child(n+2){
+      border-top: 1px solid #ebebeb;
+    }
+  }
+}

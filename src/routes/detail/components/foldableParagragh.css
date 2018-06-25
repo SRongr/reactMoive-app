@@ -1,0 +1,26 @@
+.Summarybottom {
+  position: relative;
+  padding: 0 1px;
+  margin-top: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block; }
+  .Summarybottom.true {
+    height: 65px; }
+  .Summarybottom .contentText {
+    text-indent: 2em;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 22px; }
+  .Summarybottom .moreOrLess {
+    width: 25px;
+    height: 13px;
+    display: inline-block;
+    position: absolute;
+    color: #539ae6;
+    bottom: 3px;
+    right: 0px;
+    font-size: 11px;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: -5px 0px 15px 4px #fff; }

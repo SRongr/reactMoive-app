@@ -1,0 +1,6 @@
+.a {
+  font-size: 12px; }
+  .a .b {
+    color: red; }
+    .a .b .c {
+      color: blue; }

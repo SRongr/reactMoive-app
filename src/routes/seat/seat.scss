@@ -1,0 +1,42 @@
+html,body{
+    height: 100%;
+    .Seat{
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        .seatTitle{
+            padding: 15px 15px;
+        }
+        .seatContentHome{
+            .contentTip{
+                margin:5px 0;
+                height: 24px;
+                width: 100%;
+                background:url('./../../icons/seats.svg') 50% / contain no-repeat;
+            }
+            .contentCenter{
+                height:68vh;
+                width: 100%;
+                background-color: #f7f7f7;
+                .centerTop{
+                    text-align:center;
+                    line-height : 28px;
+                    height: 28px;
+                    background: transparent url('./../../icons/screen.svg') 50% / contain no-repeat;
+                }
+                .SeatContentHome{
+                    width: 100%;
+                    overflow-x : scroll;
+                    margin: 0 auto;
+                    &::-webkit-scrollbar {
+                        display: none;
+                    }
+                }
+            }
+        }
+       
+    }
+}

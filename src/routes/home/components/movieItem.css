@@ -1,0 +1,60 @@
+.item {
+  display: flex; }
+  .item .img {
+    height: 99px;
+    width: 69px; }
+    .item .img img {
+      width: 100%;
+      height: 100%; }
+  .item .content {
+    flex: 1;
+    margin: 0 11px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+    .item .content .title {
+      height: 18px;
+      line-height: 20px;
+      font-size: 17px;
+      color: #322332;
+      letter-spacing: 2px;
+      font-weight: bold; }
+    .item .content .score {
+      margin-top: 13px;
+      font-size: 10px;
+      letter-spacing: 1px; }
+      .item .content .score span {
+        color: #ffa54b;
+        margin-left: 4px;
+        font-weight: 700; }
+    .item .content .font {
+      color: #777777;
+      letter-spacing: 1px;
+      font-size: 13px; }
+      .item .content .font.director {
+        margin-top: 12px; }
+      .item .content .font.actor {
+        margin-top: 9px; }
+    .item .content .theBest {
+      margin-top: 9px;
+      font-size: 0px; }
+      .item .content .theBest :nth-of-type(1) {
+        border-color: #ef6a79;
+        color: #ef6a79; }
+      .item .content .theBest :nth-of-type(2) {
+        border-color: #5ba4e8;
+        color: #5ba4e8; }
+      .item .content .theBest span {
+        margin-right: 10px;
+        padding: 2px;
+        height: 14x;
+        width: 50px;
+        font-size: 9px;
+        display: inline-block;
+        border: 1px solid;
+        border-radius: 5px; }
+  .item .buy {
+    align-self: center; }
+    .item .buy .howMuch {
+      text-align: center;
+      font-size: 12px; }

@@ -1,0 +1,81 @@
+
+.item{
+    display: flex;
+    .img{
+        height: 99px;
+        width: 69px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .content{
+        flex: 1;
+        margin: 0 11px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        .title{
+            height: 18px;
+            line-height: 20px;
+            font-size: 17px;
+            color: #322332;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+        .score{
+            margin-top: 13px;
+            font-size: 10px;
+            letter-spacing: 1px;
+            span{
+                color: #ffa54b;
+                margin-left:4px;
+                font-weight: 700;
+            }
+        }
+        
+        .font{
+            color:#777777;
+            letter-spacing: 1px;
+            font-size: 13px;
+            &.director{
+                
+                 margin-top: 12px;
+     
+             }
+            &.actor{
+                margin-top: 9px;
+     
+             }
+        }
+        .theBest{
+            margin-top: 9px;
+            font-size: 0px;
+            :nth-of-type(1){
+                border-color:#ef6a79;
+                color: #ef6a79;
+            }
+            :nth-of-type(2){
+                border-color: #5ba4e8;
+                color: #5ba4e8;
+            }
+            span{
+                margin-right: 10px;
+                padding: 2px;
+                height: 14x;
+                width: 50px;
+                font-size: 9px;
+                display: inline-block;
+                border: 1px solid;
+                border-radius: 5px;
+            }
+        }
+    }
+    .buy{
+        align-self: center;
+        .howMuch{
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+}

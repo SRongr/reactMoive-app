@@ -1,0 +1,36 @@
+.top {
+  background-color: #777777;
+  color: #fff;
+  padding: 8px 8px 12px; }
+  .top .userInfo {
+    display: flex;
+    padding: 8px 2px; }
+    .top .userInfo .userimg {
+      height: 70px;
+      width: 70px;
+      background-color: #ccc;
+      border-radius: 50%;
+      margin-right: 20px;
+      background-size: cover; }
+    .top .userInfo .userContent {
+      flex: 1; }
+      .top .userInfo .userContent .name {
+        font-size: 21px;
+        font-weight: 700; }
+      .top .userInfo .userContent .FF {
+        margin-top: 8px;
+        font-size: 0; }
+        .top .userInfo .userContent .FF span {
+          font-size: 12px;
+          margin-right: 10px; }
+      .top .userInfo .userContent .userLevel {
+        padding: 2px 8px;
+        width: 50px;
+        background-color: #5a5e78;
+        margin-top: 8px;
+        font-size: 9px;
+        text-align: center;
+        border-radius: 10px; }
+
+.middle {
+  padding: 0 15px; }

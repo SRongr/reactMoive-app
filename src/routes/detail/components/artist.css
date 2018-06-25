@@ -1,0 +1,37 @@
+.artistList {
+  display: flex;
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+  padding: 0;
+  margin-right: -20px;
+  -webkit-overflow-scrolling: touch; }
+  .artistList::-webkit-scrollbar {
+    display: none; }
+  .artistList .artistItem {
+    margin-right: 6px;
+    list-style: none;
+    padding: 0;
+    width: 80px; }
+    .artistList .artistItem:last-child {
+      padding-right: 20px; }
+    .artistList .artistItem a {
+      text-decoration: none;
+      color: #777777; }
+      .artistList .artistItem a .img {
+        height: 110px;
+        width: 80px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%; }
+      .artistList .artistItem a dl {
+        font-size: 14px;
+        margin: 2px;
+        padding: 0;
+        font-weight: 600;
+        color: #000;
+        text-align: center; }
+      .artistList .artistItem a dd {
+        margin: 0px;
+        padding: 0;
+        font-size: 12px;
+        text-align: center; }

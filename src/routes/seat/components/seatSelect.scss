@@ -1,0 +1,99 @@
+.seatSelect{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    background-color: #fff;
+    .selectInfo{
+        padding: 11px 15px;
+        margin: 0;
+        display: flex;
+        // flex-wrap: wrap;
+        white-space: nowrap;
+        overflow-x: scroll;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        .selectItem{
+            // box-sizing: border-box;
+            position: relative;
+            width: 100px;
+            min-width: 100px;
+            padding: 2px 5px;
+            margin-bottom: 5px;
+            margin-right: 5px;
+            border:1px solid #999999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            &:last-child{
+                margin-right: 10px;
+            }
+            .itemInfo{
+                flex: 1;
+                margin-left: 10px;
+                text-align: center;
+                // float: right;
+                .borderCircular{
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    transform: translate(-50%,-50%) rotateZ(45deg);
+                    border:1px solid #999999;
+                    background-color: #fff;
+                    border-left-color: transparent;
+                    border-bottom-color: transparent;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                }
+                .infoTop{
+                    color: #101010;
+                    font-weight: 700;
+                }
+                .infoMoneyWrapper{
+                    margin-top: 2px;
+                    font-size: 10px;
+                    .moneyCar{
+                        display: inline-block;
+                        background-color: #83c57b;
+                        color: #fff;
+                        border-radius: 3px;
+                        padding: 2px;
+                    }
+                    .money{
+                        margin-left: 1px;
+                        display: inline-block;
+                        color: #83c57b;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .itemClose{
+                width: 10px;
+                height: 10px;
+               
+                text-align: center;
+                background:url('./../../../icons/close.svg') 50% / 10px 10px no-repeat;
+            }
+        }
+    }
+    .confirmSelect{
+        box-sizing: border-box;
+        padding: 8px;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        background-color: #ee798e;
+        .confirmTop{
+            font-size: 17px;
+            font-weight: 600;
+        }
+        .confirmReduce{
+            margin-top: 4px;
+            font-size: 11px;
+        }
+    }
+    
+}

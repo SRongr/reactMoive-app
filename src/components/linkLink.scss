@@ -1,0 +1,33 @@
+.lineLink{
+    display: flex;
+    // padding: 0 15px; 
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    &:nth-child(n+2){
+        border-top: 1px solid #e2e3e2;
+    }
+    .tittle{
+        flex: 1;
+    }
+    .extra{
+        color:#777;
+        width: auto;
+    }
+    .iconRight{
+        // display: table-cell;
+        // height: 16px;
+        // vertical-align: middle;
+        
+        width: 16px;
+        margin-left: 10px;
+        // margin-top: 21px;
+        background:url('./../icons/arrow-r.svg') 50% / contain no-repeat;
+        // background:url('./../icons/arrow-r.svg'); 
+        // background-position: 50% ;
+        // background-size: contain;
+        // background-repeat: no-repeat;
+    }
+}

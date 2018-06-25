@@ -1,0 +1,106 @@
+
+    .mask{
+        position: fixed;
+        padding: 20px 0;
+        z-index: 999;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #000;
+        display: none;
+        .tOperator{
+            padding: 0 15px;
+        }
+        // -webkit-overflow-scrolling: 
+        &.show{
+            display: block;
+        }
+    }
+    .detailTop{
+        background-color: #ce6d6d;
+        // height: 180px;
+        padding: 18px 18px 0px;
+        
+        .topContent{
+            display: flex;
+            margin-top: 20px;
+            
+            .content{
+                padding-bottom: 25px;
+                flex: 1;
+                color: #efd3d3;
+                justify-content: center;
+                flex-direction: column;
+            .contentName{
+                    padding-top: 2px;
+                    width: 77px;
+                    height: 19px; 
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    font-weight: 700;
+                    color: #fff;
+                    line-height: 25px;
+                }
+                .contentSecondName{
+                    margin-top: 9px;
+    
+                    font-size: 9px;
+                }
+                .class{
+                    margin-top: 9px;
+                    font-size: 9px;
+                }
+                .CM{
+                    margin-top: 9px;
+                    font-size: 9px;
+                }
+                .start{
+                    margin-top: 9px;
+                    font-size: 9px;
+                    span:nth-child(n+2){
+                        margin-left: 3px;
+                    }
+                    .colorDirection{
+                        display: inline-block;
+                        
+                        border-left-color: #efd3d3;;
+                    }
+                }
+            }
+            .img{
+                // flex: 1;
+                width: 103px;
+                
+                margin-left: 20px;
+                
+            }
+        }
+    }
+    .middleDetailModule{
+        
+        padding: 3px 25px;
+        .detailModule{
+            padding: 14px 0;
+            &:nth-child(n+2){
+                border-top: 1px solid #ededed;
+            }
+            &.score{
+                color: #000;          
+            }
+        }
+        
+    }
+    .bottomBtn{
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        height: 55px;
+        color:#fff;
+        text-align: center;
+        line-height: 55px;
+        font-size: 16px;
+        background-color: #ce6d6d;
+        text-decoration: none;
+    }
+

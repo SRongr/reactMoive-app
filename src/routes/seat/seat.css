@@ -1,0 +1,31 @@
+html, body {
+  height: 100%; }
+  html .Seat, body .Seat {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%; }
+    html .Seat .seatTitle, body .Seat .seatTitle {
+      padding: 15px 15px; }
+    html .Seat .seatContentHome .contentTip, body .Seat .seatContentHome .contentTip {
+      margin: 5px 0;
+      height: 24px;
+      width: 100%;
+      background: url("./../../icons/seats.svg") 50%/contain no-repeat; }
+    html .Seat .seatContentHome .contentCenter, body .Seat .seatContentHome .contentCenter {
+      height: 68vh;
+      width: 100%;
+      background-color: #f7f7f7; }
+      html .Seat .seatContentHome .contentCenter .centerTop, body .Seat .seatContentHome .contentCenter .centerTop {
+        text-align: center;
+        line-height: 28px;
+        height: 28px;
+        background: transparent url("./../../icons/screen.svg") 50%/contain no-repeat; }
+      html .Seat .seatContentHome .contentCenter .SeatContentHome, body .Seat .seatContentHome .contentCenter .SeatContentHome {
+        width: 100%;
+        overflow-x: scroll;
+        margin: 0 auto; }
+        html .Seat .seatContentHome .contentCenter .SeatContentHome::-webkit-scrollbar, body .Seat .seatContentHome .contentCenter .SeatContentHome::-webkit-scrollbar {
+          display: none; }

@@ -1,0 +1,24 @@
+# top-most EditorConfig file
+root = true
+##root: 表明是最顶层的配置文件，发现设为true时，才会停止查找.editorconfig文件。
+[*]
+end_of_line = lf
+##每一行的分格通过什么来去分格
+insert_final_newline = true   
+##每一个文件最后要不要留一个新的空行
+
+
+[*.{js,py}]
+charset = utf-8
+##编码形式
+
+[*.py]
+indent_style = space
+##通过什么方式来缩进  空格缩进还是tap缩进
+indent_size = 4
+##缩进大小
+
+max_line_lengh = 80
+##行最大长度
+trim_trailing_whitespace = true
+##每一行的代码后面要不要去掉多余的空格 

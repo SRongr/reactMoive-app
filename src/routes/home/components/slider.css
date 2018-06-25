@@ -1,0 +1,33 @@
+.slider {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  .slider .slider--dots {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    height: 20px;
+    line-height: 0px; }
+    .slider .slider--dots li {
+      display: inline-block;
+      list-style: none; }
+      .slider .slider--dots li::before {
+        content: '';
+        display: block;
+        width: 8px;
+        height: 8px;
+        background-color: rgba(255, 255, 255, 0.6); }
+      .slider .slider--dots li.slick-active::before {
+        background-color: #fff; }
+      .slider .slider--dots li button {
+        font-size: 0px;
+        line-height: 0px;
+        color: transparent;
+        border: 0px;
+        padding: 0px 10px; }
+  .slider img {
+    width: 100%;
+    height: 100%; }

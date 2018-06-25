@@ -1,0 +1,13 @@
+.LabelItem {
+  display: inline-block;
+  color: #333;
+  padding: 0 10px;
+  height: 28px;
+  border-radius: 14px;
+  line-height: 28px;
+  font-size: 12px;
+  border: 1px solid #bebebe;
+  margin: 0 8px 8px 0;
+  cursor: pointer; }
+  .LabelItem.active {
+    border-color: #ef819e; }

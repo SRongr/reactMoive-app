@@ -1,0 +1,1 @@
+.lineLink{display:flex;height:60px;line-height:60px;font-size:16px;text-decoration:none;color:#000}.lineLink:nth-child(n+2){border-top:1px solid #e2e3e2}.lineLink .tittle{flex:1}.lineLink .extra{color:#777;width:auto}.lineLink .iconRight{width:16px;margin-left:10px;background:url("./../icons/arrow-r.svg") 50%/contain no-repeat}

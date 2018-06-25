@@ -1,0 +1,124 @@
+.cityLayerWrapper {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow: hidden;
+  background-color: #fff;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch; }
+  .cityLayerWrapper .title {
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #fff;
+    border-bottom: 1px solid #e2e2e2;
+    color: #000;
+    margin-bottom: 10px; }
+    .cityLayerWrapper .title .position {
+      position: absolute;
+      left: 0;
+      width: 44px;
+      height: 44px;
+      text-align: center;
+      font-size: 11px; }
+  .cityLayerWrapper .contentWrapper {
+    margin-top: 44px;
+    background-color: #f5f5f5;
+    padding: 6px 0px 0px; }
+    .cityLayerWrapper .contentWrapper .contentInput {
+      margin: 0 8px;
+      border-radius: 5px;
+      background-color: #fff;
+      padding: 8px 100px; }
+      .cityLayerWrapper .contentWrapper .contentInput input {
+        display: block;
+        margin: 0 auto;
+        width: 113px;
+        font-size: 10px;
+        color: #8e8e93;
+        border: 0;
+        text-align: center; }
+    .cityLayerWrapper .contentWrapper .contentMiddle .location {
+      margin: 0 8px; }
+      .cityLayerWrapper .contentWrapper .contentMiddle .location .locationTitle {
+        margin-top: 10px;
+        font-size: 8px;
+        color: #9f9fa0; }
+      .cityLayerWrapper .contentWrapper .contentMiddle .location .locationContent {
+        margin-top: 15px;
+        background-color: #fff;
+        height: 35px;
+        width: 105px;
+        line-height: 35px;
+        font-size: 9px;
+        color: #ec5b68;
+        text-align: center; }
+    .cityLayerWrapper .contentWrapper .hot {
+      margin: 20px 8px; }
+      .cityLayerWrapper .contentWrapper .hot .hotTittle {
+        font-size: 8px;
+        color: #9f9fa0; }
+      .cityLayerWrapper .contentWrapper .hot .hotContentWrapper {
+        margin-bottom: 0px;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap; }
+        .cityLayerWrapper .contentWrapper .hot .hotContentWrapper .hotItem {
+          margin-right: 10px;
+          margin-bottom: 10px;
+          display: inline-block;
+          list-style: none;
+          background-color: #fff;
+          height: 35px;
+          width: 105px;
+          line-height: 35px;
+          font-size: 9px;
+          color: #999999;
+          text-align: center; }
+    .cityLayerWrapper .contentWrapper .cityListWrapper {
+      position: relative; }
+      .cityLayerWrapper .contentWrapper .cityListWrapper .hidden {
+        position: absolute;
+        top: -44px; }
+      .cityLayerWrapper .contentWrapper .cityListWrapper .cityListTittle {
+        padding: 0 8px;
+        height: 27px;
+        font-size: 9px;
+        line-height: 27px;
+        color: #333;
+        font-weight: 800;
+        border-top: 1px solid #e2e2e2;
+        border-bottom: 1px solid #e2e2e2; }
+      .cityLayerWrapper .contentWrapper .cityListWrapper .cityList {
+        background-color: #fff;
+        padding-left: 8px;
+        margin: 0; }
+        .cityLayerWrapper .contentWrapper .cityListWrapper .cityList .cityItem {
+          list-style: none;
+          height: 48px;
+          line-height: 48px;
+          font-size: 9px;
+          color: #333;
+          border-bottom: 1px solid #e2e2e2; }
+  .cityLayerWrapper .cityIndex {
+    position: fixed;
+    right: 3px;
+    top: 160px; }
+    .cityLayerWrapper .cityIndex ul li {
+      padding-bottom: 20px;
+      list-style: none;
+      font-size: 8px; }
+      .cityLayerWrapper .cityIndex ul li a {
+        color: #5fb5f9;
+        text-decoration: none;
+        font-weight: 600;
+        float: right; }
